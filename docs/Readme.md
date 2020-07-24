@@ -4,7 +4,7 @@
 
 [**Supplementary Information** (Click Me)](https://github.com/SciCrunch/Antibody-Watch/blob/master/SupplementaryInformation.md)
 
-![Workflow](../SupImages/Fig1.png)
+![Workflow](Fig1.png)
 
 **Authors**: Chun-Nan Hsu, Chia-Hui Chang, Thamolwan Poopradubsil, AmandaLo, Karen A. William, Ko-Wei Lin, Anita Bandrowski, Ibrahim Burak Ozyurt, Jeffrey S. Grethe, and Maryann E. Martone
 
