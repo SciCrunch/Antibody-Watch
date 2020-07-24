@@ -1,13 +1,6 @@
 # Antibody-Watch
 ## Antibody Watch: Text Mining Antibody Specificity from the Literature
 
-Chun-Nan Hsu, Chia-Hui Chang, Thamolwan Poopradubsil, AmandaLo, Karen A. William, Ko-Wei Lin, Anita Bandrowski, Ibrahim Burak Ozyurt, Jeffrey S. Grethe, and Maryann E. Martone
-
-Department of Neurosciences and Center for Research in Biological Systems, University of California, San Diego, La Jolla, CA92093, USA.
-Department of Computer Science and Information Engineering, National Central University, Zhongli, Taoyuan 32001,Taiwan.
-SciCrunch, Inc. San Diego, CA, US
-
-
 **Motivation**: Antibodies are widely used experimental reagents to test expression of proteins. However,
 they might not always provide the intended tests when they do not specifically bind to the target proteins
 that their providers designed them for, leading to unreliable research results. While many proposals have
@@ -29,3 +22,11 @@ to the extracted specificity snippets. The result shows that it is feasible to c
 base about problematic antibodies by text mining.
 
 **Supplementary Information**: https://github.com/SciCrunch/Antibody-Watch/blob/master/SupplementaryInformation.md
+
+![Workflow](SupImages/Fig1.png)
+
+**Authors**: Chun-Nan Hsu, Chia-Hui Chang, Thamolwan Poopradubsil, AmandaLo, Karen A. William, Ko-Wei Lin, Anita Bandrowski, Ibrahim Burak Ozyurt, Jeffrey S. Grethe, and Maryann E. Martone
+
+**Affiliations**: Department of Neurosciences and Center for Research in Biological Systems, University of California, San Diego, La Jolla, CA92093, USA.
+Department of Computer Science and Information Engineering, National Central University, Zhongli, Taoyuan 32001,Taiwan.
+SciCrunch, Inc. San Diego, CA, US
