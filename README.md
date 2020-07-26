@@ -1,13 +1,16 @@
 # Antibody-Watch
 ## Text Mining Antibody Specificity from the Literature
 
-**Motivation**: Antibodies are widely used experimental reagents to test expression of proteins. However, they might not always provide the intended tests when they do not specifically bind to the target proteins that their providers designed them for, leading to unreliable research results. We developed a system to automatically alert scientist users of problematic antibodies by extracting statements about antibody specificity reported in the literature.
+Antibody-Watch aims to automatically alert scientist users of problematic antibodies by extracting statements about antibody specificity reported in the literature.
 
-**Results**: We developed a deep neural network system and tested its performance with a corpus of more than two thousand articles that reported uses of antibodies. We divided the problem into two tasks. Given an input article, the first task is to identify snippets about antibody specificity and classify if the snippets report any antibody that is nonspecific, and thus problematic. The second task is to link each of these snippets to one or more antibodies that the snippet referred to. We leveraged the Research Resource Identifiers (RRID) to precisely identify antibodies linked to the extracted specificity snippets. The result shows that it is feasible to construct a reliable knowledge base about problematic antibodies by text mining.
-
-[**Supplementary Information** (Click Me)](https://github.com/SciCrunch/Antibody-Watch/blob/master/SupplementaryInformation.md)
+We divided the problem into two tasks (See figure below). 
+* Task 1 (Specificity classifier) classify a snippet about antibody specificity and test if the snippet report any antibody that is nonspecific, and thus problematic. 
+* Task 2 (Antibody RRID linking) link each of these snippets to one or more antibodies that the snippet referred to. We leveraged the Research Resource Identifiers (RRID) to precisely identify antibodies linked to the extracted specificity snippets. 
 
 ![Workflow](SupImages/Fig1.png)
+
+* Task 1: See folder [ABSA](ABSA/)
+* Task 2: See folder [rrid](rrid/)
 
 **Authors**: Chun-Nan Hsu, Chia-Hui Chang, Thamolwan Poopradubsil, AmandaLo, Karen A. William, Ko-Wei Lin, Anita Bandrowski, Ibrahim Burak Ozyurt, Jeffrey S. Grethe, and Maryann E. Martone
 
