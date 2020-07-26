@@ -4,13 +4,10 @@
 Antibody-Watch aims to automatically alert scientist users of problematic antibodies by extracting statements about antibody specificity reported in the literature.
 
 We divided the problem into two tasks (See figure below). 
-* Task 1 (Specificity classifier) classify a snippet about antibody specificity and test if the snippet report any antibody that is nonspecific, and thus problematic. 
-* Task 2 (Antibody RRID linking) link each of these snippets to one or more antibodies that the snippet referred to. We leveraged the Research Resource Identifiers (RRID) to precisely identify antibodies linked to the extracted specificity snippets. 
+* Task 1 (Specificity classifier; see folder [ABSA](ABSA/)) classifies a snippet about antibody specificity and test if the snippet report any antibody that is nonspecific, and thus problematic. 
+* Task 2 (Antibody RRID linking; see folder [rrid](rrid/)) links each of these snippets to one or more antibodies that the snippet referred to. We leveraged the Research Resource Identifiers (RRID) to precisely identify antibodies linked to the extracted specificity snippets. 
 
 ![Workflow](SupImages/Fig1.png)
-
-* Task 1: See folder [ABSA](ABSA/)
-* Task 2: See folder [rrid](rrid/)
 
 **Authors**: Chun-Nan Hsu, Chia-Hui Chang, Thamolwan Poopradubsil, AmandaLo, Karen A. William, Ko-Wei Lin, Anita Bandrowski, Ibrahim Burak Ozyurt, Jeffrey S. Grethe, and Maryann E. Martone
 
