@@ -17,7 +17,7 @@ Please refer to [datasets folder](../datasets/) for more details.
 
 ### Training
 ```sh
-python train_k_fold_cross_val.py --model_name aoa_bert
+python train_k_fold_cross_val.py
 ```
 * All implemented models are listed in [models directory](./models/).
 * See [train.py](./train.py) for more training arguments.
