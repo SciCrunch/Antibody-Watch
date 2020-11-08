@@ -1,9 +1,9 @@
 # Supplementary Information
 ## Antibody Watch: Text Mining Antibody Specificity from the Literature (Hsu et al.) 
-### Supplementary Figure 1
+### Supplementary Figure 1 Annotation interface screenshots.
 ![Fig 1.1](SupImages/SupFig1-1.png)
 
-1.1 Annotation interface on Google spreadsheets for annotating interface.
+1.1 Annotation interface on Google Spreadsheet.
 
 ![Fig 1.2](SupImages/SupFig1-2.png)
 
