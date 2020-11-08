@@ -3,7 +3,7 @@
 ### Supplementary Figure 1 Annotation interface screenshots.
 ![Fig 1.1](SupImages/SupFig1-1.png)
 
-1.1 Annotation interface on Google Spreadsheet.
+1.1 Annotation interface on Google Sheets.
 
 ![Fig 1.2](SupImages/SupFig1-2.png)
 
