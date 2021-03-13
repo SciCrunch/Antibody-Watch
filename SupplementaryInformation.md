@@ -26,11 +26,11 @@ A Local Context Focus (LCF) Mechanism for Aspect-Based Sentiment Classification 
 The Siamese Recurrent Architectures were shown to be effective for the sentence similarity classification. They consist of two recurrent network components trained to have identical parameters (thus the name “Siamese”) to read a pair of different input sentences. Then the difference between the output of the two components is computed to determine if the input sentences are similar. We implemented this architecture by using a bi-directional long-short term memory (biLSTM) as the recurrent layer to encode a snippet into a vectorized representation. For the last layer, we consider both Manhattan distance and Euclidean distance of the encoded vectors to measure the similarity between the input sentence pair.
 
 ### Appendix Section 2 Hyperparameter settings 
-# BERT dimension size = 768
-# The hidden layers in BiLSTM = 200
-# Input maximum length = 128
-# Batch size = 8
-# Optimizer: Adam with learning rate of 2e-5
-# Maximum epoch = 10
-# Drop out = 0.1
+* BERT dimension size = 768
+* The hidden layers in BiLSTM = 200
+* Input maximum length = 128
+* Batch size = 8
+* Optimizer: Adam with learning rate of 2e-5
+* Maximum epoch = 10
+* Drop out = 0.1
 Please also see source codes for details.
