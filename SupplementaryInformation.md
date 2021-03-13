@@ -33,4 +33,5 @@ The Siamese Recurrent Architectures were shown to be effective for the sentence 
 * Optimizer: Adam with learning rate of 2e-5
 * Maximum epoch = 10
 * Drop out = 0.1
+
 Please also see source codes for details.
