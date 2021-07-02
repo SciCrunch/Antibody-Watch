@@ -6,7 +6,7 @@
 
 ![Workflow](Fig1.png)
 
-**Authors**: Chun-Nan Hsu, Chia-Hui Chang, Thamolwan Poopradubsil, AmandaLo, Karen A. William, Ko-Wei Lin, Anita Bandrowski, Ibrahim Burak Ozyurt, Jeffrey S. Grethe, and Maryann E. Martone
+**Citation**: Chun-Nan Hsu, Chia-Hui Chang, Thamolwan Poopradubsil, AmandaLo, Karen A. William, Ko-Wei Lin, Anita Bandrowski, Ibrahim Burak Ozyurt, Jeffrey S. Grethe, and Maryann E. Martone (2021) Antibody Watch: Text mining antibody specificity from the literature. PLoS Computational Biology 17(5): e1008967. [https://doi.org/10.1371/journal.pcbi.1008967]
 
 **Affiliations**: Department of Neurosciences and Center for Research in Biological Systems, University of California, San Diego, La Jolla, CA92093, USA.
 Department of Computer Science and Information Engineering, National Central University, Zhongli, Taoyuan 32001,Taiwan.
