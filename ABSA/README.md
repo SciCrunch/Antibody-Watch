@@ -9,7 +9,7 @@
 
 To install requirements, run `pip install -r requirements.txt`.
 * For SciBERT models, please visit [allenai/scibert](https://github.com/allenai/scibert) for downloading.
-* For ImbalancedDatasetSampler, please visit [ImbalancedDatasetSampler](https://github.com/ufoym/imbalanced-dataset-sampler).
+* For ImbalancedDatasetSampler, please visit [ImbalancedDatasetSampler](https://github.com/ufoym/imbalanced-dataset-sampler/tree/4672d71cdd7c7aa9f1924a3d4388a9f464f1e11f). Note that this is their April 20, 2020 version.
 
 ## Usage
 ### Before Training
