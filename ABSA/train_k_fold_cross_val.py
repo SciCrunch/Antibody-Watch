@@ -159,6 +159,10 @@ class Instructor:
         if save_file:
             targets_data = t_targets_all.cpu().numpy()
             predicts_data = torch.argmax(t_outputs_all, -1).cpu().numpy()
+            
+            if not os.path.exists('ensemble'):
+                os.mkdir('ensemble')
+            
             numpy.save('ensemble/data-fold-{}.npy'.format(fid), targets_data)
             logger.info('>> targets data saved')
             numpy.save('ensemble/sci-{0}-fold-{1}.npy'.format(self.opt.model_name, fid), predicts_data)
